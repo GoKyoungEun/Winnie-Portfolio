@@ -66,7 +66,7 @@
     transform: translateY(0);
   }
 }
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1500px) {
   .container .video-frame video{
     width: auto;
     height: 100vh;
