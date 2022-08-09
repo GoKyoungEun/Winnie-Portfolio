@@ -22,10 +22,14 @@
     right: 5%;
   }
 }
+.page1 {
+  height: 100%;
+}
 .inner {
   width: 1600px;
+  height: inherit;
   margin: 0 auto;
-  margin-bottom: 200px;
+  margin-bottom: 500px;
 }
 .text-box {
   width: 100%;
@@ -41,7 +45,6 @@
 .blog-boxs {
   height: 1500px;
   padding: 20px 50px 50px 50px;
-  box-sizing: border-box;
   margin-top: 50px;
 }
 .blog-img {
@@ -105,6 +108,10 @@
   background: url('../images/blog-img09.jpg') no-repeat center center;
   background-size: cover;
 }
+.blog-img:nth-child(10) .img-box {
+  background: url('../images/blog-img10.jpg') no-repeat center center;
+  background-size: cover;
+}
 .blog-img p {
   width: 100%;
   height: 50px;
@@ -148,6 +155,9 @@
   }
 }
 @media screen and (max-width: 860px) {
+  .page1 {
+    height: 3500px;
+  }
   .text-box h1 {
     font-size: 50px;
   }

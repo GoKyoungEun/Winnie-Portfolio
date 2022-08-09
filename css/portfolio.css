@@ -23,14 +23,13 @@
   }
 }
 .page1 {
-  height: 1400px;
+  height: 100%;
 }
 .inner {
   width: 1600px;
   height: inherit;
   margin: 0 auto;
-  padding-bottom: 200px;
-  box-sizing: border-box;
+  margin-bottom: 500px;
 }
 .text-box {
   width: 100%;
@@ -44,9 +43,8 @@
   box-sizing: border-box;
 }
 .portfolio-boxs {
-  height: 1000px;
+  height: 1200px;
   padding: 20px 50px 50px 50px;
-  box-sizing: border-box;
   margin-top: 50px;
 }
 .portfolio-img {
@@ -130,28 +128,20 @@
 }
 
 @media screen and (max-width: 1600px) {
-  .page1 {
-    height: 1500px;
-  }
   .inner {
     width: 100%;
+    margin-bottom: 300px;
   }
   .portfolio-boxs {
     height: 700px;
   }
 }
 @media screen and (max-width: 1400px) {
-  .page1 {
-    height: 1200px;
-  }
   .portfolio-img .img-box {
     height: 250px;
   }
 }
 @media screen and (max-width: 980px) {
-  .page1 {
-    height: 2200px;
-  }
   .portfolio-img {
     width: 50%;
   }
@@ -162,6 +152,9 @@
 @media screen and (max-width: 860px) {
   .page1 {
     height: 2300px;
+  }
+  .inner {
+    margin-bottom: 0;
   }
   .text-box h1 {
     font-size: 50px;
