@@ -22,11 +22,15 @@
     right: 5%;
   }
 }
+.page1 {
+  height: 1400px;
+}
 .inner {
   width: 1600px;
-  height: 100%;
+  height: inherit;
   margin: 0 auto;
-  margin-bottom: 200px;
+  padding-bottom: 200px;
+  box-sizing: border-box;
 }
 .text-box {
   width: 100%;
@@ -126,6 +130,9 @@
 }
 
 @media screen and (max-width: 1600px) {
+  .page1 {
+    height: 1500px;
+  }
   .inner {
     width: 100%;
   }
@@ -134,11 +141,17 @@
   }
 }
 @media screen and (max-width: 1400px) {
+  .page1 {
+    height: 1200px;
+  }
   .portfolio-img .img-box {
     height: 250px;
   }
 }
 @media screen and (max-width: 980px) {
+  .page1 {
+    height: 2200px;
+  }
   .portfolio-img {
     width: 50%;
   }
@@ -147,6 +160,9 @@
   }
 }
 @media screen and (max-width: 860px) {
+  .page1 {
+    height: 2300px;
+  }
   .text-box h1 {
     font-size: 50px;
   }
