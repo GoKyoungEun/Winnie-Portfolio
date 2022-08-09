@@ -136,7 +136,7 @@
       let sticky = $('.skillbar2'), // 따라올려는 부모
           scroll = $(window).scrollTop();// 높이값
 
-      if (scroll >= 1400) sticky.addClass('on');  
+      if (scroll >= 1300) sticky.addClass('on');  
       // 상단에서 500px 도달시 상단 고정 fixed 로 클래스 수정
       else sticky.removeClass('on');
     });
