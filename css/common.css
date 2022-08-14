@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 /* google fonts - Gothic A1*/
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500&display=swap');
-
+/* Fontawesome 4.7 */
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 body{
   font-family: 'Gothic A1', sans-serif;
 }

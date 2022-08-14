@@ -202,9 +202,6 @@
   .text-box h1 {
     font-size: 50px;
   }
-  .portfolio-img {
-    width: 100%;  
-  }
   .text-box {
     text-align: center;
     margin-top: 100px;
@@ -215,6 +212,15 @@
     height: 1900px;
   }
   .portfolio-img {
-    padding: 10px 20px;
+    width: 100%;
+    padding: 10px 20px;  
   }
+  .portfolio-img .img-box {
+    height: 270px;
+  }
+
+  .project-text p {
+    font-size: 14px;
+  }
+
 }
