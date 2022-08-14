@@ -131,12 +131,18 @@
       $('.swiper-play-btn, .swiper-stop-btn').toggleClass('active');
     });
 
+    $('.title').click(function () {
+      $(this).addClass('active')
+      $(this).siblings('.title').removeClass('active')
+      $(this).siblings('.desc').stop().slideUp()
+      $(this).next().stop().slideDown()
+    })
 
-    $(window).scroll(function(){
-      let sticky = $('.skillbar2'), // 따라올려는 부모
-          scroll = $(window).scrollTop();// 높이값
+    // $(window).scroll(function(){
+    //   let sticky = $('.skillbar2'), // 따라올려는 부모
+    //       scroll = $(window).scrollTop();// 높이값
 
-      if (scroll >= 1300) sticky.addClass('on');  
-      // 상단에서 500px 도달시 상단 고정 fixed 로 클래스 수정
-      else sticky.removeClass('on');
-    });
+    //   if (scroll >= 1300) sticky.addClass('on');  
+    //   // 상단에서 500px 도달시 상단 고정 fixed 로 클래스 수정
+    //   else sticky.removeClass('on');
+    // });

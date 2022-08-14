@@ -505,79 +505,49 @@
   margin-top: 100px;
 }
 .page3 .inner p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 28px;
-
 }
-.page3 .inner .skill-item {
-  width: 100%;
-  height: 65px;
+.page3-text {
+  border-right: 1px solid #fff;
+}
+.accordion .title {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
   position: relative;
-  margin-bottom: 60px;
+  transition: 0.3s;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 500;
 }
-.page3 .inner .skill-item span {
-  width: 50%;
-  float: left;
-  box-sizing: border-box;
-  font-size: 35px;
+.accordion .title::after {
+  content: '\f105';
+  font-family: Fontawesome;
+  float: right;
+  margin-right: 5px;
+  transition: 0.3s;
 }
-.page3 .inner .skill-item span:nth-child(2) {
-  text-align: right;
+.accordion .title.active::after {
+  transform: rotate(90deg);
+  color: #005DB5;
+  font-weight: 600;
 }
-.page3 .inner .skill-item > .skillbar1 {
-  width: 100%;
-  height: 20px;
-  background-color: rgba(255, 255, 255, 0.7);
-  position: absolute;
-  bottom: 0;
-  border-radius: 5px;
-}
-.skill-item:nth-child(1) .skillbar2.on {
-  position: absolute;
-  width: 0%;
-  height: 20px;
+.accordion .title:hover,
+.accordion .title.active {
   background-color: #fff;
-  bottom: 0;
-  border-radius: 5px;
-  animation: ani95 0.5s linear;
-  animation-fill-mode: both;
-  animation-delay: 1s;
+  color: #005DB5;
 }
-.skill-item:nth-child(2) .skillbar2.on {
-  position: absolute;
-  width: 0%;
-  height: 20px;
-  background-color: #fff;
-  bottom: 0;
-  border-radius: 5px;
-  animation: ani85 0.5s linear;
-  animation-fill-mode: both;
-  animation-delay: 1s;
+.accordion .desc{
+  padding: 0 10px 10px 10px;
+  display: none;
+  font-size: 18px;
+  line-height: 30px;
 }
-.skill-item:nth-child(3) .skillbar2.on,
-.skill-item:nth-child(4) .skillbar2.on {
-  position: absolute;
-  width: 0%;
-  height: 20px;
-  background-color: #fff;
-  bottom: 0;
-  border-radius: 5px;
-  animation: ani80 0.5s linear;
-  animation-fill-mode: both;
-  animation-delay: 1s;
+.accordion .desc.active{
+  display: block;
 }
-.skill-item:nth-child(5) .skillbar2.on {
-  position: absolute;
-  width: 0%;
-  height: 20px;
-  background-color: #fff;
-  bottom: 0;
-  border-radius: 5px;
-  animation: ani60 0.5s linear;
-  animation-fill-mode: both;
-  animation-delay: 1s;
-}
-
 @keyframes ani95 {
   100% {
     width: 95%;
@@ -624,11 +594,14 @@
     text-align: center;
     height: auto;
   }
+  .page3 .inner h1 {
+    text-align: center;
+  }
   .page3 .inner .page3-text {
-    padding: 100px 100px;
+    padding: 50px 100px;
   }
   .page3 .inner .page-skill {
-    padding: 0px 100px;
+    padding: 0px 100px 100px;
   }
   .page3 .inner .skill-item span:nth-child(1) {
     text-align: left;
@@ -645,10 +618,10 @@
     line-height: 30px;
   }
   .page3 .inner .page3-text {
-    padding: 100px 20px;
+    padding: 0px 20px 50px;
   }
   .page3 .inner .page-skill {
-    padding: 0px 20px;
+    padding: 0px 20px 100px;
   }
   .page3 .inner .skill-item {
     margin-bottom: 40px;
