@@ -2,6 +2,6 @@
 
 <img src="./images/main.jpg">
 
-<a href="http://gaeng0.dothome.co.kr/myself/page/about.html">Winnie portfolio</a>
+<a href="http://gaeng0.dothome.co.kr/myself/index.html">Winnie portfolio</a>
 
 
