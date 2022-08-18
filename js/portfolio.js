@@ -3,3 +3,4 @@ $('.img-box').hover(function () {
 }, function() {
   $(this).children('div').removeClass('bg');
 })
+
