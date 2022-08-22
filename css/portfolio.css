@@ -239,7 +239,10 @@
   }
   .img-box > div {
     opacity: 1;
-  }  
+  } 
+  .point-box .point {
+    padding: 5px 15px;
+  } 
   .project-text {
     width: 100%;
     height: inherit;
@@ -253,7 +256,7 @@
     align-items: center;
     animation: bgani 0.3s linear;
     animation-fill-mode: both;
-    padding: 50px 30px;
+    padding: 25px 20px;
     box-sizing: border-box;  
   }
   .project-text p {
