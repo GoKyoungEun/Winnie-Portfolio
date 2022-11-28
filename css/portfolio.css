@@ -202,7 +202,7 @@
     padding: 10px;
   }
   .portfolio-img {
-    width: 80%;
+    width: 90%;
     padding: 10px 20px;  
   }
   .portfolio-img .img-box {
@@ -240,6 +240,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
+    padding: 10px 20px;  
   }
   .project-text p,
   .project-text .portfolio-btn {
