@@ -43,16 +43,12 @@
   box-sizing: border-box;
 }
 .portfolio-boxs {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 50px;
-  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 70px;
 
-}
-.portfolio-img {
-  width: 31%;
 }
 .portfolio-img a {
   color: #222;
